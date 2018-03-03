@@ -1,0 +1,244 @@
+a {
+	color: #777777;
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a:visited{
+	color: pink;
+}
+
+header{
+	display: flex;
+	height: 85px;
+	border-width: 100%;
+	border: #cccccc solid thin;
+	background-color: #ffffff;
+}
+
+.top{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;	
+	box-sizing: border-box;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+h1{
+	align-self: flex-end;
+	color: #ffffff;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 34px;
+	font-weight: bold;
+	width: 240px;
+	text-align: center;
+	padding: 20px;
+	height: 40px;
+}
+
+.button0{
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+}
+
+#Contact{
+	padding-left: 10px;
+}
+
+#Portfolio{
+	padding: 0px 10px 0px 10px;
+	border-left: 1px #dddddd solid;
+	border-right: 1px #dddddd solid;
+}
+
+#About{
+	padding-right: 10px;
+}
+
+.content{
+	box-sizing: border-box;	
+	width: 960px;
+	display: flex;
+	justify-content: space-between;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 40px;
+}
+
+.container1{
+	box-sizing: border-box;
+	width: 650px;
+	border: #dddddd solid thin;
+	margin-right: 40px;
+	padding: 30px;
+	background-color: #ffffff;
+}
+
+h2{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 32px;
+	font-weight: bold;
+	border-bottom: 3px #dddddd solid;
+	padding-bottom: 20px;
+}
+
+#profile-pic{
+	padding-top: 30px;
+	padding-right: 30px;
+	width: auto;
+	height: auto;
+	max-width:300px;
+	max-height: 300px;
+}
+
+p{
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	line-height: 30px;
+	padding-top: 25px;
+}
+
+input{
+	box-sizing: border-box;
+	width: 100%;
+	height: 35px;
+	border-color: #dddddd;
+}
+
+#name, #email, #message{
+	margin-bottom: 10px;
+}
+
+#message{
+	box-sizing: border-box;
+	height: 200px;
+}
+
+form{
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	line-height: 30px;
+	padding-top: 25px;
+}
+
+#submit{
+	color: #ffffff;
+	background-color: #4aaaa5;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	box-sizing: border-box;
+	width: 130px;
+	height: 45px;
+}
+
+.image{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#ph1,#ph2,#ph3,#ph4,#ph5{
+	width: auto;
+	height: auto;
+	max-width:275px;
+}
+
+.image1,.image2,.image3,.image4,.image5{
+	position: relative;
+	padding-top: 40px;
+}
+
+#image1,#image2,#image3,#image4,#image5{
+
+	box-sizing: border-box;
+	position: absolute;
+	top: 70%;
+	width: 275px;
+	height: 50px;
+}
+
+h4{
+	color: #ffffff;
+	background-color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 26px;
+	width:100%;
+	text-align: center;
+	padding-top: 10px;
+	height: 25px;
+}
+
+.container2{
+	box-sizing: border-box;
+	width: 270px;
+	height: 200px;
+	border: #dddddd thin solid;
+	padding: 30px;
+	background-color: #ffffff;
+}
+
+
+h3{
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	padding-bottom: 20px;
+	border-bottom: 2px #dddddd solid;
+}
+
+.button1{
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+
+}
+
+#github,#linkedin{
+	margin-top: 20px;
+	width: 70px;
+	height: 70px;
+}
+
+#stackoverflow{
+	width: 63px;
+	height: 63px;
+	margin: 25px 0px 3px 6px;
+}
+
+html,body{
+	height: 100%;
+	margin: 0;
+}
+
+.nofooter{
+	min-height: 100%;
+	background-image: url(assets/images/retina_wood/retina_wood.png);	
+}
+
+.container0{
+	padding-bottom: 50px;
+}
+
+footer{
+	height: 50px;
+	margin-top: -50px;
+	background-color:#666666;
+	color: #ffffff;
+	text-align: center;
+	padding-top: 40px;
+	font-size: 14px;
+	border-top: #4aaaa5 solid 10px;
+}
